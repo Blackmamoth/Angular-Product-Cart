@@ -1,27 +1,26 @@
-# ProductShopping
+# A simple product cart/shopping cart application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+## This app uses angular for frontend and json-server as a fake rest api.
 
-## Development server
+## A user can do the following in this application/website
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. View products
+2. Add/Remove products to/from cart
+3. Add a product to the list (to make this a CRUD project).
+4. A user can checkout a product already in the cart, which will simply remove it from the cart rather removing it from the json file.
 
-## Code scaffolding
+## To get the website running once you've cloned it
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Type this command in the root of the repo to install the dependencies to run the angular app and also the json-server.
 
-## Build
+## `$ npm install`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Open two terminals and navigate to the root of the repo and in one of them type this command to start the angular app
+	
+## `$ npm start`
 
-## Running unit tests
+3. In the second terminal type this command 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## `$ npm run server`
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+4. After both the servers are running simply navigate to **http://localhost:4200** on your browser.

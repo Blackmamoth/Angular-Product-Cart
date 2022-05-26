@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Boat rockerz 450 pro",
+      "price": 999,
+      "imgSrc": "https://m.media-amazon.com/images/I/61jlFEwSt+L._SL1500_.jpg",
+      "inCart": true
+    },
+    {
+      "id": 2,
+      "name": "Macbook air",
+      "price": 82300,
+      "imgSrc": "https://techcrunch.com/wp-content/uploads/2020/11/2020-11-16-074520097.jpg",
+      "inCart": false
+    },
+    {
+      "id": 3,
+      "name": "Moto Edge +",
+      "price": 71999,
+      "imgSrc": "https://m.media-amazon.com/images/I/61aWtezBYlL._AC_SS450_.jpg",
+      "inCart": false
+    },
+    {
+      "id": 4,
+      "name": "Nvidia GTX 1650",
+      "price": 27900,
+      "imgSrc": "https://m.media-amazon.com/images/I/71Tb4K-DuyL._SL1500_.jpg",
+      "inCart": false
+    },
+    {
+      "name": "Dell Inspiron 15 3501",
+      "price": "39000",
+      "imgSrc": "https://m.media-amazon.com/images/I/61NRIdN1bcL._SL1280_.jpg",
+      "inCart": true,
+      "id": 5
+    },
+    {
+      "name": "Iphone 12 64GB ",
+      "price": "54900",
+      "imgSrc": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020_big.jpg.large.jpg",
+      "inCart": false,
+      "id": 6
+    },
+    {
+      "name": "PS5",
+      "price": "38000",
+      "imgSrc": "https://cdn.mos.cms.futurecdn.net/7Qv4q73m9Nif9CpxtfVWs6.jpg",
+      "inCart": false,
+      "id": 7
+    },
+    {
+      "name": "Computer Netwoking a top down approach",
+      "price": "800",
+      "imgSrc": "https://images-na.ssl-images-amazon.com/images/I/91hg1HHyiWL.jpg",
+      "inCart": true,
+      "id": 8
+    },
+    {
+      "name": "Moto G5S +",
+      "price": "9000",
+      "imgSrc": "https://m.media-amazon.com/images/I/71yRJqoAZ0L._SL1200_.jpg",
+      "inCart": false,
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<h1 class="text-center">Add Product</h1>
+
+<form (ngSubmit)="onSubmit()" class="card p-3 border-dark text-center">
+    <div class="mb-3 mt-3">
+        <label for="name" class="form-label h4">Product Name</label>
+        <input type="text" class="form-control border-dark" #productName>
+    </div>
+
+    <div class="mb-3 mt-3">
+        <label for="name" class="form-label h4">Product Price</label>
+        <input type="number" class="form-control border-dark" #productPrice>
+    </div>
+
+    <div class="mb-3 mt-3">
+        <label for="name" class="form-label h4">Product Image URL</label>
+        <input type="text" class="form-control border-dark" #productImage>
+    </div>
+
+    <div class="mb-3 mt-3">
+        <button type="submit" class="btn btn-primary btn-lg">Add product</button>
+    </div>
+</form>

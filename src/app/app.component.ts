@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'product-shopping';
+  currentLink: string = 'products'
+
+  onLinkChange(link: string) {
+    this.currentLink = link
+  }
+
 }

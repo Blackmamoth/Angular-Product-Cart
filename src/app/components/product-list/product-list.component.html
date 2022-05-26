@@ -1,0 +1,12 @@
+<div class="card text-black">
+    <img [src]="product.imgSrc" class="card-img-top" [alt]="product.name" height="400px" />
+    <div class="card-body">
+        <div class="text-center mt-1">
+            <h4 class="card-title">{{product.name}}</h4>
+            <h6 class="text-primary mb-1 pb-3">{{product.price}} rs</h6>
+            <button [ngClass]="product.inCart ? 'btn btn-outline-danger mb-1' : 'btn btn-outline-primary mb-1'"
+                (click)="addToCart(product)">{{ product.inCart ?
+                'Remove from cart' : 'Add to Cart'}}</button>
+        </div>
+    </div>
+</div>
